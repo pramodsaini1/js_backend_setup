@@ -44,7 +44,7 @@ const userSchema = new Schema(
     },
     refreshToken: {
       type: String,
-    },
+    },//refresh token ----long lib   and  access token--------short lib
   },
   { timestamps: true }
 );
