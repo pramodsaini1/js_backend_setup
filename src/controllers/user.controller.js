@@ -24,8 +24,7 @@ const generateAccessAndRefreshTokens=async (userId)=>{
       }
 }
 const registeruser = asyncHandler(async (req, res) => {
-  // res.status(200).json({ message: "Krishan Surela" });
-
+ 
   // get user details from frontend throw postman
   // validation -not empty
   // check if user already exists:username,email
